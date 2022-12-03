@@ -1,0 +1,436 @@
+*{  
+       margin: 0;  
+
+    padding: 0;
+        
+     font-family: Arial;
+     background-color: white;
+  
+  }
+  a {    
+    color: inherit;  
+   
+   text-decoration: none;
+   
+} 
+
+
+ 
+.header div {     
+    font-size: 20px;  
+    
+    color: #555; 
+
+}
+
+
+.header div p {  
+       font-size: 25px;
+
+         color: #222;   
+         
+         margin: 10px 0; 
+         
+        
+        } 
+
+
+/*header */        
+        
+        
+
+
+
+               
+        
+.navbar {  
+
+
+            
+    padding: 20px 0; 
+         
+             
+    text-align: center;
+
+} 
+.navbar a {    
+    
+    
+    padding: 10px;    
+
+    background: red; 
+  
+
+    color: white;   
+ 
+
+    border-radius: 30px;   
+
+
+    margin: 0 10px;   
+
+
+    font-weight: bolder; 
+    
+
+} 
+
+.navbar a.activebutton {    
+            
+    background: black; 
+           
+           
+}
+
+
+
+
+
+
+.navbar .a:hover {   
+
+    background: black;
+
+}
+/*NAV BAAAAAAAAAAAAAAAARRRRR*/
+
+
+
+
+
+
+ 
+
+.categories {    
+    
+      display: flex;  
+
+      margin-top: 50px; 
+
+       justify-content: space-evenly
+    }
+
+
+.categories div {     
+        width: 250px;
+    
+         height: 300px;    
+    
+    
+         border-radius: 10px; 
+    
+    
+    
+        display: flex;
+    
+    
+        flex-direction: column; 
+    
+                }     
+
+ .categories .cars-info img {    
+    
+                    width: 100%;  
+                      
+                    height: auto;
+                    
+                    } 
+                
+
+                
+.categories .cars-info {    
+    
+                    
+    text-align: justify; 
+                
+}
+                
+ .categories .cars-info a {     
+                  
+    color: beige;   
+                    
+                   
+    background: red;
+                
+                   
+    padding: 3px; 
+                
+                  
+    text-align: center; 
+                
+                   
+    margin: 10px 0; 
+                        
+    
+} 
+
+/*CATEGORIES */
+.logo{
+    color: black;
+    font-size: 28px;
+
+}
+span{
+color: red;
+
+
+}
+.hero{
+    height: 10vh;
+    width: 30%;
+    
+    
+}
+
+
+.categories img {    
+    
+    width: 100%;  
+      
+    height: auto;
+     
+    
+    
+    }
+    
+  
+
+    dl{
+        display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+
+
+        
+    }
+    .header {    
+        display: flex;  
+       
+       justify-content: space-evenly;
+   
+   align-items: center;  
+   
+   border-bottom: 2px solid ;
+   
+   } 
+
+   .categories div {     
+    width: 250px;
+
+     height: 300px;    
+
+
+     border-radius: 10px; 
+
+     overflow: hidden;
+
+
+    display: flex;
+
+
+    flex-direction: column; 
+
+            } 
+            
+
+
+
+   /*contact us css*/
+
+
+   .biog {     
+    
+    width: 70%;     
+    
+    margin: 50px auto;     
+    
+    display: flex;     
+    
+    justify-content: space-between;     
+    
+    border: 3px solid black;     
+    
+    padding: 20px; 
+    
+    width: 50%;
+
+} 
+
+
+.heading {     /*this for the cars and the contact us*/
+    
+    font-size: 23px;
+     font-weight: bold;
+    
+    
+      
+    
+    
+     
+    
+     
+
+
+} 
+
+.biog .list {    
+    
+    
+    margin: 5px 150 0 30px; 
+    
+
+}
+
+
+/*cars pages style css*/
+
+
+.car-show .more-button {  
+
+    position: relative;
+ 
+ }
+
+.car-show .more-button a{  
+ 
+ 
+ background: black;
+ 
+ color: whitesmoke;    
+
+ display: block;  
+
+
+ position: absolute;
+
+
+ bottom: 10px;    
+
+ right: 20px;    
+
+ padding: 10px;     
+
+ border-radius: 8px; 
+
+} 
+
+
+.cars {  
+    
+    width: 60%; 
+    
+       
+    margin: auto; 
+}
+
+.car-show{    
+    border: 2px solid saddlebrown;    
+
+    margin: 20px 60px;    
+    
+    padding: 10px;    
+    
+    border-radius: 4px;    
+    
+    display: flex;
+   
+   } 
+
+
+   .car-show .cars-info img{    
+    
+    width: 300px;    
+    
+    height: auto;
+
+} 
+
+
+/*cars info page*/
+.car-page-info{    
+    border: 2px solid saddlebrown;    
+
+    margin: 20px 60px;    
+    
+    padding: 80px;    
+    
+    border-radius: 4px;    
+    
+    display: flex;
+   
+   } 
+
+
+
+/*purchase form */
+.purchase {     
+    
+    
+    width: 40%;     
+    
+    margin: 50px auto;     
+    
+    border-radius: 20px;     
+    
+    box-shadow: 1px -1px 20px #ccc;    
+    
+    padding: 10px;     
+    
+    text-align: center; 
+
+}
+
+.purchase .form-control {    
+    
+    
+    
+    margin: 5px 0;    
+    
+    display: flex;    
+    
+    
+    justify-content: space-between;     
+    
+    
+    
+    padding: 10px;
+
+
+}
+    
+    
+    
+.purchase .form-control p {     
+    
+    display: inline;
+
+} 
+
+.purchase .form-control input {    
+    
+    
+    width: 60%;     
+    
+    
+    padding: 4px;
+
+
+} 
+
+.purchase button {     
+    
+    
+    width: 50%;    
+    
+    margin: auto;    
+    
+    padding: 5px 0; 
+
+} 
+
+
+
+
+
